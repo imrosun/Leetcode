@@ -29,4 +29,4 @@ public class LongestSubstring {
             return maxLen;
         }
     }
-}
+
