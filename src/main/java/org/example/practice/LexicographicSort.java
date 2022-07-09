@@ -31,17 +31,25 @@ aaaa
  */
 
 package org.example.practice;
-import java.util.HashMap;
+import java.util.HashSet;
 
 public class LexicographicSort {
     public static void main(String[] args) {
         String str = "dcba";
         String str2 = "edcb";
         String str3 = "decb";
+        System.out.println(sorting(str,str2,str3));
+
+
     }
-    static String[] sorting(String s){
-        HashMap<String, Integer> hm = new HashMap<String, Integer>();
-       for(int i=0; i< s.length() ;i++){
+    static String[] sorting(String s, String s1, String s2){
+        String s3 = ;
+        char[] c = s.split(s3);
+        HashSet<String> hm = new HashSet<>();
+        for(int i=0; i< s.length(); i++){
+            if(s[i] < s1[i]){
+                s1[i] = s[i];
+            }
 
         }
         String[] ch = {"a-z"};
