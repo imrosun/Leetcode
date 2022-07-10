@@ -43,6 +43,14 @@
 //
 //    }
 //    static String[] sorting(String s, String s1, String s2){
+//        for(int i=0; i<s.length(); i++){
+//            for(int j=0; j<s1.length(); j++){
+//                if(s1.length() > s2.length()){
+//                    s2[j] = s1[i];
+//                }
+//            }
+//        }
+//
 //        String s3 = ;
 //        char[] c = s.split(s3);
 //        HashSet<String> hm = new HashSet<>();
